@@ -9,9 +9,39 @@
     padding: 20px 40px;
 }
 .buy-now-button{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F);
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.box1, .box2, .box3{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+}
+.box1{
+    background-image: linear-gradient(to right, #EF942E 0%, #F4C51D 100%);
+}
+.box2{
+    
+    background-image: linear-gradient(to right, #FF589B 0%, #FF136F 100%);
+}
+.box3{
+    background-image: linear-gradient(to right, #4278FF 0%, #3714F7 100%);
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.contact{
+    background-color: #FEEAE9;
+    height: 300px;
+} 
+footer{
+    text-align: center;
 }
